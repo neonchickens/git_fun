@@ -96,7 +96,7 @@ public class BST <Key extends Comparable<Key>, Value> {
 		
 		Node temp;
 		
-		if(node = null)
+		if(node == null)
 			stack.push(node);
 		
 		while(!stack.isEmpty()) {
